@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css
+"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Great+Vibes&family=Orbitron:wght@400..900&family=Playwrite+MX:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main" data-scroll-container>
+      <div id="cursor2">
+        <img src="./assests/images/Random.png" alt="" height="30vh" />
+      </div>
+      <div id="page1">
+        <div id="cursor1"></div>
+        <div class="nav">
+          <div class="nav-sec1">
+            <h2>PortFolio</h2>
+          </div>
+          <div class="nav-sec2">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><i class="ri-menu-line"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div id="hero">
+          <div id="hero-sec1">
+            <h1>Hello!</h1>
+            <h2>I'm <span id="name">Abhinav</span> <br />a Proffesional</h2>
+            <span id="element"></span><br /><br />
+            <a
+              href="https://www.linkedin.com/in/abhinav-aa388b288/
+              "
+              target="_blank"
+              >LinkedIn
+            </a>
+            <a href="assests/Portfolio.pdf" download="AbhinavCV">Download CV</a>
+            <!-- <a href="https://www.linkedin.com/in/abhinav-aa388b288/"
+            ><i class="ri-linkedin-box-fill"></i
+              ></a> -->
+            </div>
+            <div id="hero-sec2">
+              <img src="./assests/images/heroimg.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div id="skill"><h1>SKILLS</h1></div>
+        <div id="page2">
+          <div id="page2-left">
+          <h1 id="mainhtml">
+            HTML
+            <img
+              id="cursor"
+              src="./assests/images/html-5-svgrepo-com.svg"
+              alt=""
+              height="2px"
+            />
+          </h1>
+          <h1 id="maincss">
+            CSS
+            <img
+              id="cursor10"
+              src="./assests/images/css-3-svgrepo-com.svg"
+              alt=""
+              height="2px"
+            />
+          </h1>
+          <h1 id="mainjs">
+            JAVASCRIPT
+            <img
+              id="cursor3"
+              src="./assests/images/javascript-svgrepo-com.svg"
+              alt=""
+              height="5px"
+            />
+          </h1>
+          <h1 id="mainreact">
+            REACT
+            <img id="cursor4" src="./assests/images/react.svg" alt="" />
+        </div>
+        <div id="page2-right">
+
+         
+            <h1 id="maindb">
+              MONGODB
+              <img
+                id="cursor5"
+                src="./assests/images/mongo-svgrepo-com.svg"
+                alt=""
+              />
+            </h1>
+            <h1 id="mainnode">
+              Node.js
+              <img
+                id="cursor6"
+                src="./assests/images/node-js-svgrepo-com.svg"
+                alt=""
+              />
+            </h1>
+            <h1 id="mainex">
+              Express
+              <img
+                id="cursor7"
+                src="./assests/images/express-seeklogo.svg"
+                alt=""
+              />
+            </h1>
+            <h1 id="maintail">
+              TailWindCss
+              <img
+                id="cursor8"
+                src="./assests/images/tailwind-svgrepo-com.svg"
+                alt=""
+              />
+            </h1>
+          </h1>
+        </div>
+      </div>
+      <!-- <div id="page3">
+        <div class="page3-sec1">
+          <h1>Projects</h1>
+        </div>
+        <div class="page3-sec2">
+          <div id="page3-inner1">
+            <video autoplay muted src="./assests/project/GHSR.mp4" loop></video>
+            <p>
+              Guru Har Rai Sahib Medical Centre (Charitable) we are dedicated to
+              providing you with the highest standard of healthcare and
+              wellness. Our expert team of medical professionals, cutting-edge
+              technology
+            </p>
+            GHSR Hosptital
+          </div>
+          <div id="page3-inner2">WEb dev</div>
+          <div id="page3-inner3">video editior</div>
+        </div>
+      </div> -->
+      <div id="page4">
+        <div>
+          <h2>GetInTouch</h2>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- Replace with your Access Key -->
+            <input
+              type="hidden"
+              name="access_key"
+              value="b25a1dc7-2db7-40e6-9f5b-5168d28c4f45"
+            />
+
+            <!-- Form Inputs. Each input must have a name="" attribute -->
+            <input type="text" name="name" required placeholder="Name" />
+            <input type="email" name="email" required placeholder="Email" />
+            <textarea name="message" required placeholder="Feedback/Message"></textarea>
+            <!-- <input type="range" name="range" required /> -->
+            <!-- Honeypot Spam Protection -->
+            <!-- <input
+              type="checkbox"
+              name="botcheck"
+              class="hidden"
+              style="display: block"
+            /> -->
+
+            <!-- Custom Confirmation / Success Page -->
+            <input
+              type="hidden"
+              name="redirect"
+              value="https://mywebsite.com/thanks.html"
+            />
+
+            <button type="submit">Submit Form</button>
+          </form>
+        </div>
+        <div><img src="./assests/images/contact.png" height="300px"></div>
+      </div>
+    </div>
+    <script src="
+https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js
+"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
